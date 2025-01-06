@@ -1,0 +1,174 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#outer-container{
+    
+    font-family: 'Roboto',sans-serif;
+    
+
+    
+    
+}
+
+#level1{
+    background-color: #1f2937;
+    
+   
+   
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    padding: 2%;
+    padding-top: 0;
+    
+    
+}
+#header_links{
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
+    padding: inherit;
+    font-size:18px;
+    color: #E5E7EB;
+    padding-top:2%;
+ 
+ 
+  
+}
+#header_logo{
+    padding: 0% 0% 0% 8%;
+    flex:0.75;
+    align-content: center;
+    font-size:24px;
+    color: #F9FAF8;
+}
+#level1_inner{
+    display: flex;
+    flex:1;
+}
+
+.levels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#level1_img{
+    flex:1;
+    padding: 5%;
+    background-color: gray;
+    margin: 5%;
+    margin-top: 0;
+    width: 10%;
+
+}
+#level1_info{
+    flex:1;
+    padding-left: 9%;
+
+
+}
+#signUp_Button{
+    font-size: larger;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border:  3px rgb(5, 5, 5);
+    border-radius: 9%;
+    height: 15%;
+    width: 20%;
+
+    
+}
+#level2{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    padding: 30px;
+    padding-left:8%
+
+}
+.square-outer{
+    display: block;
+   justify-content: center;
+   font-size:18px;
+    color: #5a5b5d;
+   
+    
+    
+  
+
+}
+.square{
+    flex:1;
+    border :solid 3px blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+
+}
+.text{
+   text-align: center;
+    width: 140px;
+}
+#level3{
+    background-color: #E5E7EB ;
+    height: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 15%;
+}
+#level4{
+    margin: 80px;
+    background-color: #3882F6;
+    border-radius: 1.5%;
+    color:#fefffd;
+    display: flex;
+    width: 70em;
+    justify-self: center;
+    justify-content: center;
+    
+    
+   
+}
+#level4_button{
+    
+   
+    padding-top: 80px;
+    font-size:20px;
+    height: 80px;
+}
+#level4_inner{
+    
+    margin: 30px;
+   
+   
+    font-size: 20px;
+    text-align: justify; 
+    padding:10px;
+    padding-top:10px;
+
+}
+#signUp_button2{
+    font-size: 20px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border: solid 2px white;
+    border-radius: 8%;
+}
+footer{
+    padding: 3%;
+    text-align: center;
+    background-color: #1f2937;
+    color:#E5E7EB;
+    height: 80px;
+
+}
