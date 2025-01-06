@@ -5,20 +5,14 @@ html, body {
     padding: 0;
     height: 100%;
 }
-#outer-container{
-    
+#outer-container{    
     font-family: 'Roboto',sans-serif;
-    
-
-    
-    
+   
 }
 
 #level1{
     background-color: #1f2937;
-    
-   
-   
+
 }
 #header {
     display: flex;
